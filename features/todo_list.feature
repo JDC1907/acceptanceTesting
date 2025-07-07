@@ -21,7 +21,7 @@ Feature: To-Do List Manager
     When the user marks task "Buy groceries" as completed
     Then the to-do list should show task "Buy groceries" as completed
 
-  Scenario Clear the entire to-do list:
+  Scenario: Clear the entire to-do list
     Given the to-do list contains tasks:
       | Task         |
       | Buy groceries|
